@@ -11,6 +11,9 @@
 // Show errors:
 ini_set('display_errors', 1);
 
+// Adjust error reporting:
+error_reporting(E_ALL); 
+
 // Create errors:
 foreach ($var as $v) {}
 $result = 1/0;
